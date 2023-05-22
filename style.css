@@ -1,0 +1,24 @@
+body{
+      font-family: "Courgette", cursive;
+      text-align: center;
+      padding-left: 30%;
+      padding-right: 40%;
+      font-size: 17px;
+}
+hr{
+    width: 100%;
+}
+button{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(26, 32, 194);
+    border-radius: 14px;
+    padding: 5px;
+font-family:  "Courgette", cursive;
+    
+}
+img{
+    display: block;
+    margin: 0 auto;
+  
+}
