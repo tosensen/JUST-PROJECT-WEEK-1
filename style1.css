@@ -1,0 +1,23 @@
+
+body{text-align: center;
+    font-weight: 500;
+}
+    table{
+    margin: auto;
+    width: 25%;
+}
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1%, 1%;
+    /* padding-left: 1%; */
+    text-align: left;
+    
+
+}
+tbody{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+}
+    
+
