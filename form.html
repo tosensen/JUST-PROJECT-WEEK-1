@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="./image/favicon.jpg" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600&display=swap" rel="stylesheet">
+        <title>Contact Form</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <form action="">
+    <h1>Contact Form</h1>
+  
+      <div>
+        <label for="Name">Name:</label>
+        <input class="input-width"
+          type="text"
+          name="Name"
+          id="Name"
+          required
+          placeholder="Enter your Name"
+        />
+      </div>
+
+      <div>
+        <label for="Username">Username:</label>
+        <input class="input-width"
+          type="text"
+          name="Username"
+          id="Username"
+          required
+          placeholder="Enter your Username"
+        />
+      </div>
+
+      <div>
+        <label for="password">Password:</label>
+        <input class="input-width"
+          type="password"
+          name="Password"
+          id="password"
+          required
+          placeholder="Enter your Password"
+        />
+      </div>
+
+      <div>
+        <label for="password">Re-type Password:</label>
+        <input class="input-width"
+          type="password"
+          name="password"
+          id="password"
+          required
+          placeholder="Enter your Password"
+        />
+        </div>
+
+      <div>
+        <label class="mininig" for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male" required  />Male
+       <input type="radio" name="gender" id="female" required />Female
+      </div>
+
+      <div>
+        <label class="mininig" for="Techie skills">Techie Skills:</label>
+        <input type="checkbox" name="skills" id="HTML" required /> HTML 
+        <input type="checkbox" name="skills" id="CSS" required />CSS
+        <input type="checkbox" name="skills" id="Javascript" required/>JavaScript
+      </div>
+
+      <div>
+        <label for="phonenumber">Phone Number:</label>
+        <input class="input-width"
+          type="tel"
+          name="phonenumber"
+          id="phonenumber"
+          required
+          placeholder="Enter your Phone Number"
+          pattern="[0-9] (3)- [0-9](8)"
+        />
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input class="input-width"
+          type="email"
+          name="email"
+          id="Name"
+          required
+          placeholder="Enter your Email"
+        />
+      </div>
+
+      <div>
+        <label for="text">College:</label>
+        <select class="input-width" name="college name" id="college name">
+          <option value="">Select a College</option>
+          <option value="">Wesley College</option>
+          <option value="">King's College</option>
+          <option value="">Queen's college</option>
+        </select>
+      </div>
+
+      <label for=""></label>
+      <button class="input-width">Submit</button>
+    </div>
+    </form>
+     <p> Do you want to go back to the <a href="index.html">Home Page?</a></p>
+  </body>
+</html>
