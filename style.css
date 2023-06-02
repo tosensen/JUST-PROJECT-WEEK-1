@@ -20,7 +20,10 @@ text-decoration: none;
 }
 img{
     display: block;
-    margin: 0 auto;
-  
+    margin: 0 auto; 
 }
 
+#about{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}

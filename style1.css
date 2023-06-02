@@ -20,4 +20,8 @@ tbody{
     font-weight: 500;
 }
     
-
+#index{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
