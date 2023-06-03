@@ -1,13 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Courgette", cursive;
-  text-align: center;
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-top: 2%;
   font-size: 15px;
 }
-hr {
-  width: 100%;
+
+.main{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center
 }
+
 button {
   cursor: pointer;
   color: white;
